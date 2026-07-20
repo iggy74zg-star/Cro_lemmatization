@@ -1,0 +1,47 @@
+{
+  "found_runs": [
+    {
+      "path": "/Users/iggy/models_out/lemmatized_transformer",
+      "files": [
+        "model.safetensors",
+        "tokenizer_config.json",
+        "special_tokens_map.json",
+        "config.json",
+        "tokenizer.json",
+        "vocab.txt"
+      ],
+      "contains_model_files": false,
+      "json_files": [
+        "tokenizer_config.json",
+        "special_tokens_map.json",
+        "config.json",
+        "tokenizer.json"
+      ]
+    },
+    {
+      "path": "/Users/iggy/models_out/original_transformer_s42_f0",
+      "files": [],
+      "contains_model_files": false
+    },
+    {
+      "path": "/Users/iggy/models_out/original_transformer",
+      "files": [
+        "model.safetensors",
+        "tokenizer_config.json",
+        "special_tokens_map.json",
+        "config.json",
+        "tokenizer.json",
+        "vocab.txt"
+      ],
+      "contains_model_files": false,
+      "json_files": [
+        "tokenizer_config.json",
+        "special_tokens_map.json",
+        "config.json",
+        "tokenizer.json"
+      ]
+    }
+  ],
+  "aggregated_csv": "/Users/iggy/models_out/all_metrics_with_crobert.csv",
+  "aggregated_json": "/Users/iggy/models_out/all_metrics_with_crobert.json"
+}
