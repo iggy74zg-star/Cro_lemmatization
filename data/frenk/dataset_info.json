@@ -1,0 +1,73 @@
+{
+  "builder_name": "parquet",
+  "citation": "@misc{ljube\u0161i\u01072019frenk,\n      title={The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English}, \n      author={Nikola Ljube\u0161i\u0107 and Darja Fi\u0161er and Toma\u017e Erjavec},\n      year={2019},\n      eprint={1906.02045},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/1906.02045}\n}\n",
+  "config_name": "binary",
+  "dataset_name": "frenk-hate-hr",
+  "dataset_size": 1613336,
+  "description": "The FRENK Datasets of Socially Unacceptable Discourse in Croatian.\n",
+  "download_checksums": {
+    "hf://datasets/classla/FRENK-hate-hr@7ca27149b511a2f9dfd48f3e0344c7d2148c948c/binary/train/0000.parquet": {
+      "num_bytes": 758154,
+      "checksum": null
+    },
+    "hf://datasets/classla/FRENK-hate-hr@7ca27149b511a2f9dfd48f3e0344c7d2148c948c/binary/validation/0000.parquet": {
+      "num_bytes": 83074,
+      "checksum": null
+    },
+    "hf://datasets/classla/FRENK-hate-hr@7ca27149b511a2f9dfd48f3e0344c7d2148c948c/binary/test/0000.parquet": {
+      "num_bytes": 160096,
+      "checksum": null
+    }
+  },
+  "download_size": 1001324,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "target": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "topic": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "names": [
+        "Acceptable",
+        "Offensive"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "https://www.clarin.si/repository/xmlui/handle/11356/1433",
+  "license": "CLARIN.SI Licence ACA ID-BY-NC-INF-NORED 1.0",
+  "size_in_bytes": 2614660,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1216083,
+      "num_examples": 7964,
+      "dataset_name": "frenk-hate-hr"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 131616,
+      "num_examples": 885,
+      "dataset_name": "frenk-hate-hr"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 265637,
+      "num_examples": 2119,
+      "dataset_name": "frenk-hate-hr"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
